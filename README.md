@@ -2,14 +2,17 @@
 
 Please follow this document to setup your machine and practice for the workshop
 
+Install git or download the project zip file 
+
 You can clone this repository using,
-`git clone https://mannapureddy@bitbucket.org/mannapureddy/demo.git`
+`git clone https://github.com/maddy-10x/demo.git`
 
 ### Setup ###
 
 * Java8 
 * Maven
 * IntelliJ
+* Node
 * Sonar
 * Snyk
 
@@ -26,6 +29,10 @@ https://maven.apache.org/install.html
 ### IntelliJ - IDE ###
 
 Download from: https://www.jetbrains.com/idea/download/
+
+### Node ###
+
+Get from https://nodejs.org/en/
 
 
 ### Sonar ###
@@ -51,6 +58,7 @@ https://www.digitalocean.com/community/tutorials/how-to-install-docker-compose-o
 
 ### Sonar Locally ###
 `docker run -d --name sonarqube -p 80:9000 sonarqube:community`
+
 Add a Project to generate a token, which will be used when performing sonar analysis
 
 ### Use a Sonar ###
