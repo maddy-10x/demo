@@ -74,3 +74,9 @@ Install in IntelliJ
 
 Follow the instructions to install snyk
 https://support.snyk.io/hc/en-us/articles/360003812458-Getting-started-with-the-CLI
+
+snyk test
+
+To generate a report
+
+snyk monitor
