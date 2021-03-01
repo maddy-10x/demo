@@ -65,10 +65,18 @@ Pre-requisite: Java8, Maven, Node
 Execute the following to analyze the project
 
 ´mvn compile org.sonarsource.scanner.maven:sonar-maven-plugin:3.6.0.1398:sonar   -Dsonar.projectKey=YSYS-Demo   -Dsonar.host.url=http://35.223.77.178   -Dsonar.login=83fad61fdf19794d41ce52b0994b0611758a0153 -Dsonar.sources=src/main/java -Dsonar.language=java -Dsonar.java.binaries=target/classes´
+
+Analyze sonar Reports, fix
+
+* Duplicate code issues
+* Nullpointer issues
+* Unnecessary Assignments
  
 ### Sonarlint plugin ###
 
 Install in IntelliJ
+
+Demonstrate Sonar linting with IntellJ
 
 ### Snyk test ###
 
@@ -80,3 +88,9 @@ https://support.snyk.io/hc/en-us/articles/360003812458-Getting-started-with-the-
 To generate a report
 
 `snyk monitor`
+
+Analyze the Snyk issues
+
+Fix the snyk issues
+
+Ignore snyk issues
