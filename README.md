@@ -38,6 +38,9 @@ Download from: https://www.jetbrains.com/idea/download/
 
 Get from https://nodejs.org/en/
 
+### Docker ###
+
+Install docker: https://docs.docker.com/engine/install/
 
 ### Sonar ###
 
