@@ -60,4 +60,35 @@ public class SonarProblemService {
 
     }
 
+    public int getNumberOne() {
+        return numberOne;
+    }
+
+    public void setNumberOne(int numberOne) {
+        this.numberOne = numberOne;
+    }
+
+    public int getNumberTwo() {
+        return numberTwo;
+    }
+
+    public void setNumberTwo(int numberTwo) {
+        this.numberTwo = numberTwo;
+    }
+
+    public int getNumberThree() {
+        return numberThree;
+    }
+
+    public void setNumberThree(int numberThree) {
+        this.numberThree = numberThree;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 }
